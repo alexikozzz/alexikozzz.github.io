@@ -1,0 +1,346 @@
+body{
+	font-family: lato, serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: #292929;
+	line-height: 1.2;
+	background-color: #fff;
+	min-width: 320px;
+}
+.section_title{
+	text-transform: uppercase;
+	font-size: 43px;
+	color: #7850e4;
+	font-family: playfair, serif;
+	position: relative;
+}
+.section_title:before{
+	content: "";
+	position: absolute;
+	left: -170px;
+	top: 25px;
+	width: 160px;
+	border-top: 2px solid #7850e4;
+}
+
+.page_header{
+	min-height: 135px;
+	position: relative;
+}
+.page_header:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, #eb426d, #7850e4);
+}
+
+.site_logo_header{
+	display: block;
+	margin: 0 auto;
+}
+.logo_title{
+	font-size: 20px;
+	font-weight: 500;
+	color: #7c7c7c;
+	margin: 0;
+	text-align: center;
+}
+.description_title{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	color: #7c7c7c;
+}
+.description_title strong{
+	display: block;
+	font-weight: 500;
+}
+.phone_header{
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	color: #7c7c7c;
+	font-weight: 900;
+	text-decoration: none;
+	margin: 20px 0 10px;
+}
+.callback_header{
+  background-color: rgb(235, 66, 109);
+  box-shadow: 0px 5px 16px 4px rgba(0, 1, 2, 0.25);
+  width: 245px;
+  height: 39px;
+  margin: 0 auto;
+  padding-top: 3px;
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-shadow: 0px -1px #a5022b;
+}
+
+.offer{
+	min-height: 667px;
+	background: url("../img/offer_nailpolish_bg.png") calc(50% - 570px) bottom no-repeat,
+	url("../img/offer_face_bg.png") calc(50% + 460px) center no-repeat;
+}
+.offer h2{
+	margin-top: 80px;
+}
+.crossline{
+	position: relative;
+}
+.crossline:before, .crossline:after{
+	content: "";
+	position: absolute;
+	width: 120px;
+	border-bottom: 2px solid #7850e4;
+	left:	-4px;
+	top: 30px;
+	transform: rotate(15deg);
+}
+.crossline:after{
+	transform: rotate(-15deg);
+}
+.newprice{
+	position: absolute;
+	transform: translate(-100px, 50px);
+	font-size: 60px;
+	color: #eb426d;
+}
+.newprice span{
+	font-size: 26px;
+}
+.offer_list{
+	line-height: 65px;
+	list-style: none;
+	padding: 70px 0 0;
+	margin: 0;
+}
+.offer_list li{
+	background: url("../img/offer_list_li.png") no-repeat left center;
+	padding-left: 70px;
+}
+
+.royal{
+	min-height: 800px;
+	background: url(../img/royal_nailpolish_bg.png) calc(50% + 485px) calc(100% + 88px) no-repeat,
+	url("../img/royal_bg.png") center top no-repeat;
+	position: relative;
+}
+
+.royal_title{
+	color: #fff;
+	margin-top: 120px;
+}
+.royal_title:before{
+	border-top: 2px solid #fff;
+}
+.royal p{
+	color: #fff;
+}
+.royal_invent{
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.signup{
+	background-color: #e8e7ee;
+	padding: 60px 0;
+}
+.signup_bg{
+	background: #e8e7ee url(../img/royal_nailpolish_bg.png) calc(50% + 485px) -275px no-repeat;
+}
+.signup_title{
+	margin: 0 0 40px;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: #7850e4;
+	text-align: center;
+}
+.signup_form{
+	text-align: center;
+}
+.signup_form_tel{
+  border-width: 1px;
+  border-color: rgb(124, 124, 124);
+  border-style: solid;
+  width: 270px;
+  height: 37px;
+  font-weight: 300;
+  font-size: 16px;
+  background: #e8e7ee;
+  padding: 0 10px;
+  margin-right: 30px;
+  color: #626262;
+}
+.signup_form_submit{
+  background-color: rgb(120, 80, 228);
+  box-shadow: 0px 5px 16px 4px rgba(0, 1, 2, 0.25);
+  text-shadow: 0px -1px #3f2095;
+  border-radius: 20px;
+  border: none;
+  width: 330px;
+  height: 39px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+}
+
+.likeit{
+	min-height: 800px;
+	background: url("../img/likeit_nailpolish_bg.png") calc(50% - 650px) bottom no-repeat,
+	url("../img/likeit_bg.png") calc(50% + 565px) bottom no-repeat;	
+}
+.likeit_title{
+	color: #eb426d;
+	margin-top: 60px;
+}
+.likeit_title:before{
+	border-top: 2px solid #eb426d;
+}
+.likeit_list_caption{
+	color: #7850e4;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+}
+.likeit_list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.likeit_list li{
+	background: url("../img/offer_list_li.png") no-repeat left top;
+	padding-left: 70px;
+	margin-bottom: 30px;
+}
+
+.price{
+	min-height: 1358px;
+	background: url("../img/price_bg.png") no-repeat center top;
+}
+.price_title{
+	color: #fff;
+	margin-top: 130px;
+}
+.price_title:before{
+	border-top: 2px solid #fff;	
+}
+.price_list{
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	column-count: 2;
+}
+.price_list li{
+	font-weight: 300;
+}
+.price_list li strong{
+	font-weight: 500;
+}
+.works_carousel_title{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 500;
+	font-size: 36px;
+	margin-top: 80px;
+}
+.works_carousel {
+	width:800px;
+	height: 300px;
+	margin: 140px auto 0;
+	display: relative;
+}
+.works_carousel img {
+	display: hidden;
+	cursor: pointer;
+}
+.carousel_controls{
+	position: relative;
+	width: 800px;
+	margin: -180px auto 0;
+}
+#prev, #next{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+}
+#prev{
+	left: 0;
+	background: #7850e4 url(../img/prev.png) no-repeat center center;
+}
+#next{
+	right: 0;
+	background: #7850e4 url(../img/next.png) no-repeat center center;
+}
+
+.address{
+	min-height: 465px;
+	background: url("../img/address_bg.png") calc(50% - 400px) bottom no-repeat
+}
+.address_title{
+	margin-top: 80px;
+}
+
+.map{
+	width: 100%;
+	height: 400px;
+}
+
+.page_footer{
+	min-height: 270px;
+	position: relative;
+}
+.page_footer:before, .page_footer:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: -2px;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, #eb426d, #7850e4);
+}
+.page_footer:after{
+	top: auto;
+	bottom: -30px;
+	height: 30px;
+}
+.site_logo_footer{
+	margin-top: 10px;
+}
+.logo_title_footer{
+	color: #7c7c7c;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0 0 20px;
+}
+.reg_info{
+	font-size: 24px;
+	color: #7c7c7c;
+	font-weight: 300;
+	margin: 0;
+}
+.privacy_policy{
+	font-size: 24px;
+	color: #7c7c7c;
+	font-weight: 300;
+	margin-top: 210px;
+	display: block;
+}
+.privacy_policy:hover{
+	text-decoration: none;
+}
+.phone_footer{
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	color: #7c7c7c;
+	font-weight: 900;
+	text-decoration: none;
+	margin: 160px 0 10px;
+}
